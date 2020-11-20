@@ -1,0 +1,18 @@
+﻿@using iv_hafta_odevi.Models
+@model List<Message>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>Message ID</th>
+            <th>Message </th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.MessageId</td>
+            <td>@item.message</td>
+        </tr>
+    }
+</table>

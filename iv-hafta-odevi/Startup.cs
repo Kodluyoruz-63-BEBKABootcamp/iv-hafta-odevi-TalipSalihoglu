@@ -50,7 +50,7 @@ namespace iv_hafta_odevi
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Book}/{action=Index}/{id?}");
             });
         }
     }
